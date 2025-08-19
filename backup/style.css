@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    /* flex-wrap: wrap; */
+    color: #1F2937;
+    background-color: #E5E7EB;
+    text-align: center;
+    /* width: 100%;  */
+    padding: 100px 100px;
+}
+
+.author {
+    align-self: flex-end;
+    
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    width: 55%;
+    padding: 30px 30px;
+    margin: 20px 20px;
+}
+
+.signup-para {
+    flex-direction: column;
+   
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+.header-para1 {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-bottom: 40px;
+    width: 55%;
+}
+
+.header-para2 {
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: space-around;
+    flex-direction: row;
+    width: 55%;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-self: flex-start;
+}
+
+.signup-button1 {
+    width: 12%;
+}
+
+.stuff {
+    flex: 1 1 auto;
+    padding-top: 50px;
+
+}
+
+.imgrandom {
+    justify-content: center;
+    align-self: center;
+    /* width: 50%; */
+  
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header p, a, .signup, button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    
+}
+
+.image1, .image2, .image3, .image4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-button2 {
+    border-color: #E5E7EB;
+}
+
+.content, .images {
+    gap: 20px;
+    padding: 20px 20px;
+}
